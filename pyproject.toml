@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jupyterenv"
+version = "0.1.0"
+description = ""
+authors = ["Martin Høy <martin.hoy@dnvgl.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+jupyter-contrib-nbextensions = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
