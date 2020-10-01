@@ -6,8 +6,9 @@ authors = ["Martin Høy <martin.hoy@dnvgl.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-jupyter = "^1.0.0"
-jupyter-contrib-nbextensions = "^0.5.1"
+jupyter = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter_nbextensions_configurator = "*"
 
 [tool.poetry.dev-dependencies]
 
