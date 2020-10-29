@@ -4,6 +4,7 @@
     "execute_time/ExecuteTime": true,
     "freeze/main": true,
     "highlight_selected_word/main": true,
-    "toc2/main": true
+    "toc2/main": true,
+    "jupyter-js-widgets/extension": true
   }
 }
