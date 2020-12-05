@@ -1,14 +1,16 @@
 [tool.poetry]
 name = "jupyterenv"
 version = "0.1.0"
-description = ""
-authors = ["Martin Høy <martin.hoy@dnvgl.com>"]
+description = "Jupyter Notebook configuration"
+authors = ["Martin Høy <martin@hoy.priv.no>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyter = "*"
 jupyter-contrib-nbextensions = "*"
 jupyter_nbextensions_configurator = "*"
+nbdime = "*"
+jupyterlab = "*"
 
 [tool.poetry.dev-dependencies]
 
