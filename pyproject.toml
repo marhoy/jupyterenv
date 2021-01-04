@@ -9,8 +9,8 @@ python = "^3.8"
 jupyter = "*"
 jupyter-contrib-nbextensions = "*"
 jupyter_nbextensions_configurator = "*"
+jedi = "^0.17"  # jedi 0.18 is incompatible with ipython 7.19
 nbdime = "*"
-jupyterlab = "*"
 
 [tool.poetry.dev-dependencies]
 

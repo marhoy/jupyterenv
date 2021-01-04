@@ -16,6 +16,5 @@ jupyter nbextensions_configurator enable --sys-prefix
 jupyter serverextension enable --py nbdime --sys-prefix
 jupyter nbextension install --py nbdime --sys-prefix
 jupyter nbextension enable --py nbdime --sys-prefix
-jupyter labextension install nbdime-jupyterlab
 
 ```
