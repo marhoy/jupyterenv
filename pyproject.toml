@@ -10,8 +10,9 @@ jupyter = "*"
 jupyter-contrib-nbextensions = "*"
 jupyter_nbextensions_configurator = "*"
 nbdime = "*"
-jedi = "^0.17"  # jedi 0.18 is incompatible with ipython 7.19
-nbconvert = "<6"  # nbconvert 6.x replaced 'template_path' with 'template_paths'
+jedi = "<0.18"  # jedi 0.18.0 breaks tab-completion. Remove when fixed
+nbconvert = "<6.0"  # nbconvert 6.x replaced 'template_path' with 'template_paths' remove
+                  # when fixed
 
 [tool.poetry.dev-dependencies]
 
