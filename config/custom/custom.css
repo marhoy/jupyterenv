@@ -1,3 +1,15 @@
+/* This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file. */
+
+/* Remove run-arrow on each cell */
 .code_cell .run_this_cell {
-	    display: none;
+    display: none;
+}
+
+#ipython-main-app {
+    position: relative;
+}
+#jupyter-main-app {
+    position: relative;
 }
