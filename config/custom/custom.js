@@ -80,3 +80,7 @@
  * @class customjs
  * @static
  */
+
+// Under MacOS, map toggleComment
+CodeMirror.keyMap.macDefault["Ctrl-,"] = "toggleComment";
+
