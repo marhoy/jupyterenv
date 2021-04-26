@@ -10,6 +10,7 @@ Environment and configuration for running jupyter notebooks
 pyenv virtualenv 3.9.4 jupyter
 pyenv local jupyter
 poetry install
+pyenv rehash
 
 # Enable nbextensions
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
