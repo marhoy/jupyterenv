@@ -2,10 +2,15 @@
 Environment and configuration for running jupyter notebooks
 
 # Installation
+1. Clone this repository
+2. Inside the repository, run the commands below
+3. Edit your `~/.zshenv` and make sure you have something like `export JUPYTER_CONFIG_DIR=~/GitHub/jupyterenv/config`
+
 ```
-pyenv virtualenv 3.8.6 jupyter
+pyenv virtualenv 3.9.4 jupyter
 pyenv local jupyter
 poetry install
+pyenv rehash
 
 # Enable nbextensions
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
