@@ -13,6 +13,7 @@ nbdime = "*"
 nbconvert = "<6.0"  # nbconvert 6.x replaced 'template_path' with 'template_paths'
                     # remove when fixed
 
+ipyleaflet = "^0.13.6"
 [tool.poetry.dev-dependencies]
 
 [build-system]
