@@ -5,12 +5,12 @@ description = "Jupyter Notebook configuration"
 authors = ["Martin Høy <martin@hoy.priv.no>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 jupyter = "*"
 jupyter-contrib-nbextensions = "*"
 jupyter_nbextensions_configurator = "*"
 nbdime = "*"
-nbconvert = "<6.0"  # nbconvert 6.x replaced 'template_path' with 'template_paths'
+nbconvert = "*"  # nbconvert 6.x replaced 'template_path' with 'template_paths'
                     # remove when fixed
 ipyleaflet = "*"
 
