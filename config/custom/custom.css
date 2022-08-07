@@ -7,6 +7,12 @@ a hack to deal with our current css styles and no new styling should be added in
     display: none;
 }
 
+/* Specify font for code cells */
+.CodeMirror pre {
+    font-family: 'Hack Nerd Font', 'Hack NF' !important;
+    font-size: 11pt !important;
+}
+
 #ipython-main-app {
     position: relative;
 }
