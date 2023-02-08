@@ -7,13 +7,28 @@ authors = ["Martin Høy <martin@hoy.priv.no>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 jupyter = "*"
-jupyter-contrib-nbextensions = "*"
-jupyter_nbextensions_configurator = "*"
-nbdime = "*"
-nbconvert = "*"  # nbconvert 6.x replaced 'template_path' with 'template_paths'
+# jupyter-contrib-nbextensions = "*"
+# jupyter_nbextensions_configurator = "*"
+# nbdime = "*"
+# nbconvert = "*"  # nbconvert 6.x replaced 'template_path' with 'template_paths'
                     # remove when fixed
 ipyleaflet = "*"
+ipywidgets = "*"
 
+# Jupyter Lab and some extensions
+jupyterlab = "^3.2.5"
+python-lsp-server = {extras = ["all"], version = "*"}
+jupyterlab-lsp = "*"
+pyls-isort = "*"
+python-lsp-black = "*"
+jupyterlab-code-formatter = "*"
+black = "*"
+isort = "*"
+jupyterlab-execute-time = "*"
+# theme-darcula = "^4.0.0"
+nbdime = "*"
+# ipympl = "^0.8.5"
+# octave-kernel = "^0.34.2"
 
 [tool.poetry.dev-dependencies]
 
